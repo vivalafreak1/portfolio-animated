@@ -24,17 +24,17 @@ export default function PortfolioPage() {
         </div>
         <div className="sticky top-0 flex items-center h-screen gap-4 overflow-hidden">
           <motion.div style={{ x }} className="flex">
-            <div className="flex items-center justify-center w-screen h-screen bg-gradient-to-r from-purple-300 to-red-300" />
+            <div className="flex items-center justify-center w-screen h-screen bg-black" />
             {portfolioItem.map((item) => (
               <div
-                className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
+                className={`h-screen w-screen flex items-center justify-center bg-black`}
               >
                 <div className="flex flex-col gap-8 text-white">
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
-                  <div className="relative h-56 w-80 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                  <div className="relative h-56 w-80 md:w-96 md:h-64 lg:w-[500px] lg:h-[450px] xl:w-[800px] xl:h-[420px]">
                     <Image src={item.img} alt="" fill />
                   </div>
                   <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">

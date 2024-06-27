@@ -42,12 +42,12 @@ export default function ContactPage() {
     >
       <div className="flex flex-col h-full px-4 lg:flex-row sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className="flex items-center justify-center text-6xl h-1/2 lg:h-full lg:w-1/2">
+        <div className="flex items-center justify-center text-4xl sm:text-6xl h-1/2 lg:h-full lg:w-1/2">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
                 key={index}
-                initial={{ opacitiy: 1 }}
+                initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
                 transition={{
                   duration: 3,
@@ -65,7 +65,7 @@ export default function ContactPage() {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="flex flex-col justify-center gap-8 p-24 text-xl h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl"
+          className="flex flex-col justify-center gap-4 p-4 text-lg sm:gap-8 sm:p-24 sm:text-xl h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl"
         >
           <span>Dear Arief,</span>
           <textarea
@@ -80,12 +80,12 @@ export default function ContactPage() {
             className="bg-transparent border-2 border-black outline-none"
           />
           <span>Regards</span>
-          <button className="p-4 font-semibold text-gray-600 bg-purple-200 rounded">
+          <button className="p-2 font-semibold text-gray-600 bg-purple-200 rounded sm:p-4">
             Send
           </button>
           {success && (
             <span className="font-semibold text-green-600">
-              Your message has been sent succesfully!
+              Your message has been sent successfully!
             </span>
           )}
           {error && (
