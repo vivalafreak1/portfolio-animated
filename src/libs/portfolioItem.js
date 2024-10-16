@@ -3,7 +3,7 @@ const portfolioItem = [
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "WibuNation Mobile",
-    desc: "Creating destination website in Bali by creating our own API with NodeJS, ReactJS, and TailwindCSS.",
+    desc: "Building an anime portal Android application by implementing API from Jikan API, programmed in Kotlin. The app uses Room Database as local and Retrofit as remote API.",
     img: "https://lh3.googleusercontent.com/pw/AP1GczNuvw88wcnlLx3o0v70Wn5jwVAbhkDYSx267d4sDFfv4_4f32CBJwV_R1qIDZmJaFPJB6ycLNSa6tLYrkwNMyLR5cNNorFfNKooytHNJbSj6MWWzo4UHt5DNQkUk2JBjtL9BlO_iTF9gA44ZfXY4r2t=w1680-h945-s-no-gm",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7239163017072943104/",
   },
