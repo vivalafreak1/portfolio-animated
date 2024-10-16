@@ -14,7 +14,7 @@ export default function Home() {
         {/* IMAGE CONTAINER */}
         <div className="relative h-1/2 lg:h-full lg:w-1/2">
           <Image
-            src="https://lh3.googleusercontent.com/pw/AP1GczOl_WCyAG0YSdLHhv8M-6iRyrzjf1-iJSWMA1MBaUUSu8F8PG8-53X4lOWtbBv3kHMDb4Cq1GGO_O75hBZJOn-FwQpvkZDRuCnEPNiKFtcCJI7PAiuqUeEt22_t5Uixnlj2RVZLSj1NWvZ7-qIE92I50aw3RetL3VroxM3WVsaLxE5TTLKZAIML8mzy086sQeqcvONe_XHyrXmHpFIKvCno3ci8u8rcXezTLciaM2OfWwI9Cp_Zrs0juqG04wZpYoxEK8ueI8FON3AXw-BGWNvOufnReeuEptRTNyODvTNoapPlU0DhGroJoo07Zu0Z5WThAF_NsfR9bqwpbPlrQBLWLTZXkjjbOfu2AB_eN8b3uwXhkW14BToBckJatZ16CnN_9LkaK--_cTNxaMYTzeigS3nr4xye-w2r2Bon7XPgW7sqe1IDTscwo4_iEs72QJsspq9K0IRZUH-N-Drk2mIA4oRMYPDqJBhccUcgd2vgfSzWp7f63B_syOnfxQiJSG7q_v6NITyZPVe9zisQxqP3KPc5LyVnaxds1TKfMUfuQcOhKu_p8DVV_K9WSveI_SheRxDnYPrrFh1mRkfr9F2HR0WGibyL0Db72yjxf3bOT1YqCIYBMRP2bmzHgeWuHk7iqE-j5DYCk7CxMBH4i1KB_K2CRCsy3t3ZmsRnE7UJOnvC78WoQAo0x2ftNAEwCxxeYRTBuGb9S145OOyRus3BejXjOyiTJ_PtnuXXv7g7tsxHXREBXyEn2LTh9r_rWkOQJLLKJBpsdOK4qjolhZifZPlYdPvFpqCvRpc7KVFGOjoEoLv4y89hmmnI1ol5UULXHj_VDN9iagp8l-yVPXZ24u2fQpXKLco2Eyhu06tI_MoJmUC8TfzCS1uQqvG-y1GRK59vGwTV2nqsfDExdigPew=w1496-h1496-s-no-gm?authuser=0"
+            src="https://lh3.googleusercontent.com/pw/AP1GczPPMznh-X4SGuKZ2BuIbRdqxB694vy66YrWFsL4784TADSm720alxMYC8a_x_fIsPqEMFfOvQJt1zY1vSyh4EAi_lckcPO_bqHJTREp7f2YG0oKigFQJnzvcUSO-7G9Eb9CemHM08OZYlab8vrlSauA=w945-h945-s-no-gm"
             alt=""
             fill
             className="object-contain"
